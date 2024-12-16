@@ -2,7 +2,7 @@ import art
 
 bidders_list = {}
 print("Welcome to the Secret Auction!")
-print(art.logo)
+print(art.gavel_art)
 
 bid_is_running = True
 
@@ -29,10 +29,11 @@ def bidder_info():
 # Main auction loop
 while bid_is_running:
     bidder_info()
-    print(bidders_list)
+    # print(bidders_list)
     continue_bidding = input(
         "Are there any other bidders? Type 'yes' or 'no'.\n"
     ).lower()
+    print("\n" * 100) #For not letting others check current/latest bid!
     if continue_bidding == "no":
         bid_is_running = False
 
