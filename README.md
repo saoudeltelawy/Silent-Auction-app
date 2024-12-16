@@ -14,20 +14,31 @@ A simple Python-based Secret Auction program where multiple users can bid anonym
 
 ## Usage 🚀
 1. Clone the repository:
-  git clone https://github.com/yourusername/secret-auction-app.git
-  cd secret-auction-app
+git clone https://github.com/yourusername/secret-auction-app.git
+cd secret-auction-app
 2. Run the program:
-   python secret_auction.py
+python secret_auction.py
 3. Enter bidder names and bid amounts.
 4. Type "no" when bidding is complete, and the program will announce the winner.
 
-## Example Output
+## Example Output 🏆
 Welcome to the Secret Auction!
-Please enter the bidder’s name: Alice
-Bid amount: $100
+ _____________________
+|                   |
+|   SECRET AUCTION   |
+|___________________|
 
-Please enter the bidder’s name: Bob
-Bid amount: $200
+Bidder Name is: Alice
+Bidder's Bid is:... $100
+
+Are there any other bidders? Type 'yes' or 'no'.
+yes
+
+Bidder Name is: Bob
+Bidder's Bid is:... $200
+
+Are there any other bidders? Type 'yes' or 'no'.
+no
 
 The winner is Bob with a bid of $200.
 
