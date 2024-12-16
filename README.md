@@ -23,9 +23,9 @@ python secret_auction.py
 
 ## Example Output 🏆
 Welcome to the Secret Auction!
- _____________________
+_____________________
 |                   |
-|   SECRET AUCTION   |
+|   SECRET AUCTION  |
 |___________________|
 
 Bidder Name is: Alice
